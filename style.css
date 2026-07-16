@@ -1,0 +1,1249 @@
+/* ============================================================
+   BIOVIDA CIRÚRGICA — CSS REFATORADO PARA INDEX.HTML
+   Objetivo: base limpa, didática, sem SVG inline, sem style inline
+   e sem dependência visual do shared.js.
+   ============================================================ */
+
+/* --- Google Fonts Import --- */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Merriweather:wght@400;700&display=swap');
+
+/* ============================================================
+   1. VARIÁVEIS GLOBAIS
+   ============================================================ */
+:root {
+  --teal-dark: #1a6b6b;
+  --teal: #1e8080;
+  --teal-mid: #229090;
+  --teal-light: #2ba8a8;
+  --teal-accent: #2fb0b0;
+
+  --green-btn: #27a960;
+  --green-hover: #22944f;
+
+  --navy: #1a3a5c;
+  --navy-dark: #0f2640;
+
+  --white: #ffffff;
+  --off-white: #f7f9fb;
+
+  --gray-100: #f2f4f6;
+  --gray-200: #e4e8ed;
+  --gray-300: #cdd3da;
+  --gray-400: #9aa5b1;
+  --gray-500: #6b7a8d;
+  --gray-700: #3d4a5a;
+  --gray-900: #1c2a37;
+
+  --text-dark: #1c2a37;
+  --text-mid: #3d4a5a;
+  --text-light: #6b7a8d;
+
+  --star-gold: #f4b400;
+  --tag-red: #e53e3e;
+  --tag-green: #38a169;
+  --tag-blue: #3182ce;
+
+  --shadow-sm: 0 1px 4px rgba(0, 0, 0, 0.07);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.10);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.14);
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  --font-body: 'Lato', sans-serif;
+  --font-display: 'Merriweather', serif;
+
+  --transition: 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ============================================================
+   2. RESET E BASE
+   ============================================================ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--font-body);
+  color: var(--text-dark);
+  background: var(--white);
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--transition), border-color var(--transition), transform var(--transition);
+  background: var(--transition);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  background: none;
+}
+
+/* ============================================================
+   3. UTILITÁRIOS
+   ============================================================ */
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.text-teal {
+  color: var(--teal-light);
+}
+
+/* ============================================================
+   4. TOPO E CABEÇALHO
+   ============================================================ */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--white);
+}
+
+.topbar {
+  background: var(--teal-dark);
+  color: var(--white);
+  font-size: 0.8rem;
+  padding: 6px 0;
+}
+
+.topbar__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.topbar__left,
+.topbar__right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.topbar a,
+.topbar span {
+  color: var(--white);
+  opacity: 0.92;
+}
+
+.topbar a:hover {
+  opacity: 1;
+}
+
+.topbar__sep {
+  width: 1px;
+  height: 14px;
+  background: rgba(255, 255, 255, 0.35);
+}
+.topbar__instagram {
+  width: 22px;
+  height: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+}
+
+.topbar__instagram-icon {
+  width: 18px;
+  height: 18px;
+  display: block;
+  object-fit: contain;
+  transition:
+    transform var(--transition),
+    opacity var(--transition);
+}
+
+.topbar__instagram:hover .topbar__instagram-icon {
+  transform: scale(1.12);
+  opacity: 0.85;
+}
+
+.topbar__instagram:focus-visible {
+  outline: 2px solid var(--white);
+  outline-offset: 3px;
+}
+.header {
+  background: var(--white);
+  border-bottom: 1px solid var(--gray-200);
+  box-shadow: var(--shadow-sm);
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0px 24px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-shrink: 0;
+}
+
+.logo__icon {
+  width: 130px;
+  height: 54px;
+  background: transparent;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.logo__icon img {
+  width: 150%;
+  height: 150%;
+  object-fit: contain;
+  display: block;
+  transform: scale(1.12) translateY(-8px);
+}
+
+.logo__icon-cross {
+  font-size: 1.3rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.logo__text-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo__name {
+  color: var(--text-dark);
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+}
+
+.logo__sub {
+  color: var(--gray-500);
+  font-size: 1.36rem;
+  letter-spacing: 0.3px;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.nav__link {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  color: var(--text-mid);
+  font-size: 0.88rem;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+
+.nav__link:hover,
+.nav__link.active {
+  color: var(--teal-dark);
+  background: rgba(19, 80, 80, 0.07);
+}
+
+.header__actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.btn-icon {
+  position: relative;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-mid);
+  font-size: 1.1rem;
+  border-radius: 50%;
+}
+
+.btn-icon:hover {
+  color: var(--teal-dark);
+  background: var(--gray-100);
+}
+
+.cart-badge {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 17px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  background: var(--teal-dark);
+  font-size: 0.65rem;
+  font-weight: 700;
+  border-radius: 50%;
+}
+
+/* ============================================================
+   5. BOTÕES
+   ============================================================ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 22px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  color: var(--white);
+  background: var(--teal-dark);
+  border: 2px solid var(--teal-dark);
+}
+
+.btn-primary:hover {
+  background: #145757;
+  border-color: #145757;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 14px rgba(26, 107, 107, 0.35);
+}
+
+.btn-outline {
+  color: var(--teal-dark);
+  background: transparent;
+  border: 2px solid var(--teal-dark);
+}
+
+.btn-outline:hover {
+  color: var(--white);
+  background: var(--teal-dark);
+  transform: translateY(-1px);
+}
+
+.btn-green {
+  color: var(--white);
+  background: var(--green-btn);
+  border: 2px solid var(--green-btn);
+}
+
+.btn-green:hover {
+  background: var(--green-hover);
+  border-color: var(--green-hover);
+  transform: translateY(-1px);
+}
+
+.btn-light {
+  color: var(--teal-dark);
+  background: var(--white);
+  border: 2px solid var(--white);
+}
+
+.btn-light:hover {
+  color: var(--white);
+  background: transparent;
+}
+
+.btn-lg {
+  padding: 13px 30px;
+  font-size: 1rem;
+  border-radius: var(--radius-md);
+}
+
+.btn-arrow::after {
+  content: '→';
+  font-weight: 900;
+  transition: transform var(--transition);
+}
+
+.btn-arrow:hover::after {
+  transform: translateX(3px);
+}
+
+/* .btn-cart::before {
+  content: '🛒';
+  font-size: 0.9rem;
+} */
+
+/* ============================================================
+   6. HERO
+   ============================================================ */
+.hero {
+  padding: 60px 0 40px;
+  background: var(--white);
+}
+
+.hero__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  align-items: center;
+}
+
+.hero__badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 22px;
+  padding: 5px 14px;
+  color: var(--text-mid);
+  background: var(--gray-100);
+  border: 1px solid var(--gray-200);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  color: var(--white);
+  background: var(--teal-dark);
+  font-size: 0.72rem;
+  font-weight: 900;
+  border-radius: 50%;
+}
+
+.hero__title {
+  margin-bottom: 22px;
+  color: var(--text-dark);
+  font-family: var(--font-display);
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 1.22;
+  letter-spacing: -0.5px;
+}
+
+.hero__desc {
+  max-width: 520px;
+  margin-bottom: 34px;
+  color: var(--text-light);
+  font-size: 1.02rem;
+  line-height: 1.75;
+}
+
+.hero__ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 36px;
+}
+
+.hero__social-proof {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 18px;
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.social-proof__stars {
+  display: flex;
+  gap: 3px;
+  color: var(--star-gold);
+  font-size: 1rem;
+}
+
+.social-proof__rating {
+  color: var(--text-dark);
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.social-proof__text {
+  color: var(--text-light);
+  font-size: 0.8rem;
+  line-height: 1.3;
+}
+
+.social-proof__text strong {
+  display: block;
+  color: var(--text-dark);
+}
+
+.hero__img-wrap {
+  position: relative;
+}
+
+.hero__img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  background: var(--gray-100);
+}
+
+.hero__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.hero__message-card {
+  padding: 40px 50px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: var(--radius-lg);
+}
+
+.hero__message-icon {
+  margin-bottom: 16px;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.hero__message-card h2 {
+  margin-bottom: 12px;
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.hero__message-card p {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* ============================================================
+   7. SEÇÕES GERAIS
+   ============================================================ */
+.section {
+  padding: 64px 0;
+}
+
+.section--gray {
+  background: var(--off-white);
+}
+
+.section__header {
+  margin-bottom: 44px;
+  text-align: center;
+}
+
+.section__label {
+  margin-bottom: 10px;
+  color: var(--teal-light);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.section__title {
+  margin-bottom: 10px;
+  color: var(--text-dark);
+  font-family: var(--font-display);
+  font-size: 1.85rem;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+}
+
+.section__sub {
+  max-width: 520px;
+  margin: 0 auto;
+  color: var(--text-light);
+  font-size: 0.97rem;
+}
+
+.section__actions {
+  margin-top: 36px;
+  text-align: center;
+}
+
+/* ============================================================
+   8. DIFERENCIAIS
+   ============================================================ */
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+}
+
+.value-card {
+  padding: 32px 20px;
+  text-align: center;
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.value-card__img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  display: block;
+}
+
+
+.value-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.value-card__icon {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: rgba(30, 128, 128, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--teal-dark);
+  font-size: 1.4rem;
+  margin: 0 auto 18px;
+}
+
+.value-card h3 {
+  margin-bottom: 10px;
+  color: var(--text-dark);
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.value-card p {
+  color: var(--text-light);
+  font-size: 0.82rem;
+  line-height: 1.65;
+}
+
+/* ============================================================
+   9. PRODUTOS
+   ============================================================ */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+
+.product-card__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  padding: 18px;
+}
+
+.product-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+.product-card__img--white {
+background: var(--white);
+}/*obs...*/
+
+.product-card__img {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: var(--white);
+}
+
+.product-card__img--placeholder::before {
+  content: '';
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  border: 2px solid var(--gray-300);
+  border-radius: var(--radius-md);
+  opacity: 0.45;
+}
+
+.product-placeholder-icon {
+  position: relative;
+  z-index: 1;
+  color: var(--gray-400);
+  font-size: 2rem;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.product-card__tag,
+.product-card__discount {
+  position: absolute;
+  z-index: 2;
+  padding: 3px 8px;
+  color: var(--white);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
+
+.product-card__tag {
+  top: 10px;
+  left: 10px;
+}
+
+.product-card__discount {
+  top: 10px;
+  right: 10px;
+  background: var(--tag-red);
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.tag--oferta {
+  background: var(--tag-red);
+}
+
+.tag--novo {
+  background: var(--tag-blue);
+}
+
+.tag--frete {
+  background: var(--tag-green);
+}
+
+.product-card__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 14px;
+}
+
+.product-card__name {
+  margin-bottom: 8px;
+  color: var(--text-dark);
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.product-card__stars {
+  margin-bottom: 10px;
+  color: var(--star-gold);
+  font-size: 0.82rem;
+}
+
+.product-card__stars span {
+  margin-left: 3px;
+  color: var(--gray-400);
+  font-size: 0.78rem;
+}
+
+.product-card__old-price {
+  margin-bottom: 2px;
+  color: var(--gray-400);
+  font-size: 0.78rem;
+  text-decoration: line-through;
+}
+
+.product-card__price {
+  margin-top: auto;
+  margin-bottom: 14px;
+  color: var(--text-dark);
+  font-size: 1.05rem;
+  font-weight: 800;
+}
+
+.product-card__price span {
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.product-card__actions {
+  display: flex;
+  gap: 8px;
+}
+
+.product-card__actions .btn-green {
+  flex: 1;
+  padding: 9px 12px;
+  font-size: 0.83rem;
+}
+
+.btn-wishlist {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: var(--gray-400);
+  background: var(--white);
+  border: 1.5px solid var(--gray-200);
+  border-radius: var(--radius-sm);
+  transition: color var(--transition), border-color var(--transition);
+}
+
+.btn-wishlist:hover {
+  color: var(--tag-red);
+  border-color: var(--tag-red);
+}
+
+/* ============================================================
+   BLOG - CARDS
+   ============================================================ */
+
+   /* ============================================================
+   BLOG - CARDS
+   ============================================================ */
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 26px;
+}
+
+.blog-card {
+  background: var(--white);
+  border: 1px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.blog-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+.blog-card__img {
+  background: var(--gray-100);
+  aspect-ratio: 4 / 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-300);
+  font-size: 2.5rem;
+}
+
+/* Substitui o SVG antigo por um ícone simples feito com HTML + CSS */
+.blog-card__img--placeholder {
+  position: relative;
+}
+
+.blog-card__img--placeholder::before {
+  content: "";
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  border: 2px solid var(--gray-300);
+  border-radius: var(--radius-md);
+  opacity: 0.45;
+}
+
+.blog-card__icon {
+  position: relative;
+  z-index: 1;
+  color: var(--gray-400);
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.blog-card__body {
+  padding: 20px;
+}
+
+.blog-card__cat {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--teal-light);
+  margin-bottom: 10px;
+}
+
+.blog-card__title {
+  font-size: 0.97rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+
+.blog-card__desc {
+  font-size: 0.83rem;
+  color: var(--text-light);
+  line-height: 1.65;
+  margin-bottom: 16px;
+}
+
+.blog-card__link {
+  font-size: 0.83rem;
+  font-weight: 700;
+  color: var(--teal-dark);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: gap var(--transition), color var(--transition);
+}
+
+/* Seta criada no CSS, sem SVG no HTML */
+.blog-card__link::after {
+  content: "→";
+  font-weight: 900;
+  transition: transform var(--transition);
+}
+
+.blog-card__link:hover {
+  color: var(--teal-light);
+}
+
+.blog-card__link:hover::after {
+  transform: translateX(4px);
+}
+
+
+/* ============================================================
+   10. CTA FINAL
+   ============================================================ */
+.cta-banner {
+  padding: 56px 0;
+  color: var(--white);
+  background: linear-gradient(135deg, var(--teal-dark) 0%, var(--navy-dark) 100%);
+}
+
+.cta-banner__content {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cta-banner__content h2 {
+  margin-bottom: 14px;
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+}
+
+.cta-banner__content p {
+  max-width: 500px;
+  margin: 0 auto 28px;
+  font-size: 1rem;
+  opacity: 0.82;
+}
+
+/* ============================================================
+   11. RODAPÉ
+   ============================================================ */
+.footer {
+  padding: 52px 0 0;
+  color: rgba(255, 255, 255, 0.8);
+  background: var(--navy-dark);
+  font-size: 0.88rem;
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr 1.2fr;
+  gap: 40px;
+  padding-bottom: 40px;
+}
+
+.footer .logo__name {
+  color: var(--white);
+  font-size: 1rem;
+}
+
+.footer .logo__sub {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__brand p {
+  max-width: 250px;
+  margin-top: 16px;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.82rem;
+  line-height: 1.7;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-top: 18px;
+}
+
+.contact-info li {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.82rem;
+}
+
+.footer__col h4 {
+  margin-bottom: 18px;
+  color: var(--white);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.footer__col ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__col a,
+.footer__col li {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.83rem;
+}
+
+.footer__col a:hover {
+  color: var(--teal-light);
+}
+
+.footer__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 16px 0;
+  color: rgba(255, 255, 255, 0.4);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.78rem;
+}
+
+/* ============================================================
+   12. WHATSAPP FIXO
+   ============================================================ */
+.whatsapp-fab {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 1000;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  background: #25d366;
+  border-radius: 50%;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+  font-size: 1.4rem;
+}
+
+.whatsapp-fab:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 28px rgba(37, 211, 102, 0.55);
+}
+
+
+
+/* ============================================================
+   13. RESPONSIVIDADE
+   ============================================================ */
+@media (max-width: 1024px) {
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .values-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer__grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+
+  .hero__title {
+    font-size: 2.2rem;
+  }
+
+  .blog-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .topbar {
+    display: none;
+  }
+
+  .header__inner {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    padding: 14px 16px;
+  }
+
+  .nav {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .nav__list {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .header__actions {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+  }
+
+  .hero {
+    padding-top: 36px;
+  }
+
+  .hero__inner {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .hero__img-wrap {
+    order: -1;
+  }
+
+  .hero__title {
+    font-size: 1.85rem;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__bottom {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .hero__ctas {
+    flex-direction: column;
+  }
+
+  .hero__title {
+    font-size: 1.55rem;
+  }
+
+  .hero__message-card {
+    padding: 28px 24px;
+  }
+
+  .section__title {
+    font-size: 1.4rem;
+  }
+
+  .products-grid,
+  .values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Centraliza e reduz os botões dos cards no celular */
+  .product-card__actions {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .product-card__actions .btn {
+    width: calc(100% - 20px);
+    max-width: 220px;
+    min-width: 0;
+    margin: 0 auto;
+    padding: 10px 12px;
+    font-size: 0.82rem;
+    line-height: 1.3;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .cta-banner__content h2 {
+    font-size: 1.45rem;
+  }
+
+  .whatsapp-fab {
+    right: 16px;
+    bottom: 16px;
+  }
+}
+
+
