@@ -1330,6 +1330,51 @@ background: var(--white);
   line-height: 1.75;
 }
 
+/* ============================================================
+   AVALIAÇÕES DOS PRODUTOS
+   ============================================================ */
+
+/* Organização da avaliação nos cards */
+.product-card__stars {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+/* Estrelas amarelas nos cards e páginas individuais */
+.product-card__stars [data-rating-stars],
+.product-detail__rating [data-rating-stars] {
+  display: inline-block;
+  color: #f4b400;
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+/* Quantidade de avaliações em cinza */
+.product-card__stars [data-review-count],
+.product-detail__rating [data-review-count] {
+  display: inline-block;
+  margin-left: 0;
+  color: var(--gray-400);
+  font-size: 0.78rem;
+  font-weight: 400;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+/* Organização da avaliação nas páginas individuais */
+.product-detail__rating {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 8px 0 16px;
+}
+
+
 @media (max-width: 860px) {
   .about-intro__grid,
   .about-audience {
@@ -1340,6 +1385,9 @@ background: var(--white);
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+
+
 
 @media (max-width: 560px) {
   .about-intro {
