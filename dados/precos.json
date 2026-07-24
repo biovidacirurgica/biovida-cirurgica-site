@@ -1,0 +1,302 @@
+{
+  "cadeira-rodas-d400": {
+    "nome": "Cadeira de Rodas Aço Dobrável até 120 Kg D400 Dellamed",
+    "codigo": "001-codigo-loja(0000)",
+    "precoAnterior": "1.699,00",
+    "precoAtual": "1.395,00",
+    "parcelas": 6,
+    "valorParcela": "232,50",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 60
+  },
+  "cadeira-rodas-d100": {
+    "nome": "Cadeira de Rodas D100 Dobrável até 110 kg Dellamed",
+    "codigo": "002",
+    "precoAnterior": "1.199,90",
+    "precoAtual": "920,90",
+    "parcelas": 6,
+    "valorParcela": "153,33",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 167
+  },
+  "andador-3-barras-articulado": {
+    "nome": "Andador 3 Barras Articulado Dellamed",
+    "codigo": "003",
+    "precoAnterior": "289,00",
+    "precoAtual": "219,00",
+    "parcelas": 6,
+    "valorParcela": "36,50",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 122
+  },
+  "muleta-axilar-3-em-1": {
+    "nome": "Muleta Axilar Ajustável 3 em 1 até 130 kg Dellamed",
+    "codigo": "004",
+    "precoAnterior": "229,00",
+    "precoAtual": "198,90",
+    "parcelas": 6,
+    "valorParcela": "33,15",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 89
+  },
+  "cadeira-banho-d55": {
+    "nome": "Cadeira de Banho D55 Ultraleve 4 em 1 até 135kg Dellamed",
+    "codigo": "005",
+    "precoAnterior": "629,00",
+    "precoAtual": "549,00",
+    "parcelas": 6,
+    "valorParcela": "91,33",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 119
+  },
+  "cadeira-banho-d30": {
+    "nome": "Cadeira de Banho Higiênica Dobrável D30 até 100 kg Dellamed",
+    "codigo": "006",
+    "precoAnterior": "329,00",
+    "precoAtual": "289,90",
+    "parcelas": 6,
+    "valorParcela": "48,31",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 170
+  },
+  "cama-hospitalar-dx3": {
+    "nome": "Cama Hospitalar DX3 3 Movimentos até 200 Kg Dellamed",
+    "codigo": "007",
+    "precoAnterior": "6.500,00",
+    "precoAtual": "5.129,00",
+    "parcelas": 6,
+    "valorParcela": "854,83",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 29
+  },
+  "corretor-postural-hidrolight": {
+    "nome": "Corretor Postural Hidrolight Corrige A Postura",
+    "codigo": "008",
+    "precoAnterior": "98,00",
+    "precoAtual": "84,90",
+    "parcelas": 6,
+    "valorParcela": "14,15",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 89
+  },
+  "faixa-elastica-3-paineis": {
+    "nome": "Faixa Elástica 3 Painéis com Forro Hidrolight.",
+    "codigo": "009",
+    "precoAnterior": "229,90",
+    "precoAtual": "198,90",
+    "parcelas": 6,
+    "valorParcela": "33,15",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 115
+  },
+  "ortese-pulso-sem-polegar": {
+    "nome": "Órtese Tala de Pulso sem Polegar Comfort Air",
+    "codigo": "010",
+    "precoAnterior": "89,90",
+    "precoAtual": "79,90",
+    "parcelas": 6,
+    "valorParcela": "13,31",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 127
+  },
+  "tipoia-velpeau-dupla": {
+    "nome": "Tipoia Imobilizadora Estofada Velpeau Dupla",
+    "codigo": "011",
+    "precoAnterior": "102,00",
+    "precoAtual": "89,90",
+    "parcelas": 6,
+    "valorParcela": "14,98",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 164
+  },
+  "fralda-inovacare-eg": {
+    "nome": "Fralda Geriatrica Descartavel Inocare",
+    "codigo": "012",
+    "precoAnterior": "79,00",
+    "precoAtual": "56,20",
+    "parcelas": 6,
+    "valorParcela": "9,87",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 229
+  },
+  "joelheira-articulada-kestal-ksn081": {
+    "nome": "Joelheira Articulada Kestal",
+    "codigo": "013",
+    "precoAnterior": "199,90",
+    "precoAtual": "178,50",
+    "parcelas": 6,
+    "valorParcela": "29,75",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 89
+  },
+  "joelheira-ajustavel-reforco-patelar-kestal-ksn003": {
+    "nome": "Joelheira Ajustável com Reforço Patelar Kestal",
+    "codigo": "014",
+    "precoAnterior": "79,90",
+    "precoAtual": "59,90",
+    "parcelas": 6,
+    "valorParcela": "9,98",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 90
+  },
+  "sensi-knee-joelheira-bilateral-kestal-ksn080-pr": {
+    "nome": "Sensi Knee Joelheira Bilateral Kestal",
+    "codigo": "015",
+    "precoAnterior": "269,00",
+    "precoAtual": "219,90",
+    "parcelas": 6,
+    "valorParcela": "36,65",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 90
+  },
+  "suporte-subpatelar-kestal-ksn006": {
+    "nome": "Suporte Subpatelar Kestal",
+    "codigo": "016",
+    "precoAnterior": "97,90",
+    "precoAtual": "74,90",
+    "parcelas": 6,
+    "valorParcela": "12,48",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 129
+  },
+  "suporte-ombro-kestal-ksn015": {
+    "nome": "Suporte de Ombro Kestal",
+    "codigo": "017",
+    "precoAnterior": "138,00",
+    "precoAtual": "102,90",
+    "parcelas": 6,
+    "valorParcela": "17,15",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 70
+  },
+  "educador-postural-kestal-kso119": {
+    "nome": "Educador Postural Kestal",
+    "codigo": "018",
+    "precoAnterior": "129,00",
+    "precoAtual": "109,90",
+    "parcelas": 6,
+    "valorParcela": "18,31",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 129
+  },
+  "sensi-elbow-tennis-elbow-bilateral-kestal-ksn085-cz": {
+    "nome": "Sensi Elbow Tennis Elbow Bilateral Kestal",
+    "codigo": "019",
+    "precoAnterior": "94,00",
+    "precoAtual": "72,80",
+    "parcelas": 6,
+    "valorParcela": "12,13",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 79
+  },
+  "cotoveleira-lisa-kestal-ksn028": {
+    "nome": "Cotoveleira Lisa Kestal-chantal",
+    "codigo": "020",
+    "precoAnterior": "0,00",
+    "precoAtual": "0,00",
+    "parcelas": 6,
+    "valorParcela": "0,00",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 53
+  },
+  "estabilizador-tornozelo-hastes-flexsteel-kestal-kso130": {
+    "nome": "Estabilizador de Tornozelo com Hastes Flexsteel Kestal",
+    "codigo": "021",
+    "precoAnterior": "0,00",
+    "precoAtual": "0,00",
+    "parcelas": 6,
+    "valorParcela": "0,00",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 60
+  },
+  "ortese-punho-tala-polegar-kestal-kso139": {
+    "nome": "Órtese para Punho com Tala para Polegar Kestal",
+    "codigo": "022",
+    "precoAnterior": "119,00",
+    "precoAtual": "99,90",
+    "parcelas": 6,
+    "valorParcela": "16,65",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 90
+  },
+  "faixa-elastica-abdominal-4-gomos-kestal-kso101-4g": {
+    "nome": "Faixa Elástica Abdominal 4 Gomos Kestal",
+    "codigo": "023",
+    "precoAnterior": "199,90",
+    "precoAtual": "179,90",
+    "parcelas": 6,
+    "valorParcela": "29,98",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 80
+  },
+  "colete-putti-elastico-longo-bege-kestal-kso106-bg": {
+    "nome": "Colete Putti Elástico Longo Bege Kestal",
+    "codigo": "024",
+    "precoAnterior": "199,90",
+    "precoAtual": "179,90",
+    "parcelas": 6,
+    "valorParcela": "29,98",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 79
+  },
+  "colete-putti-elastico-baixo-bege-kestal-kso115-bg": {
+    "nome": "Colete Putti Elástico Baixo Bege Kestal",
+    "codigo": "025",
+    "precoAnterior": "189,90",
+    "precoAtual": "169,90",
+    "parcelas": 6,
+    "valorParcela": "28,31",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 89
+  },
+  "colar-cervical-espuma-kestal-kso110": {
+    "nome": "Colar Cervical de Espuma Kestal",
+    "codigo": "026",
+    "precoAnterior": "89,90",
+    "precoAtual": "69,90",
+    "parcelas": 6,
+    "valorParcela": "11,65",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 102
+  },
+  "colete-jewett-ortopedico-toracolombar-ortofly": {
+    "nome": "Colete Jewett Ortopédico Toracolombar Ortofly",
+    "codigo": "027",
+    "precoAnterior": "389,00",
+    "precoAtual": "349,90",
+    "parcelas": 6,
+    "valorParcela": "58,31",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 56
+  },
+  "meia-compressao-venosan-aes-18-mmhg": {
+    "nome": "Meia de Compressão Venosan AES 18 mmHg",
+    "codigo": "028",
+    "precoAnterior": "189,00",
+    "precoAtual": "159,90",
+    "parcelas": 6,
+    "valorParcela": "26,65",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 70
+  },
+  "colar-cervical-vista-collar-aspen-aspe-vista": {
+    "nome": "Colar Cervical Vista Collar Aspen",
+    "codigo": "029",
+    "precoAnterior": "520,20",
+    "precoAtual": "470,00",
+    "parcelas": 6,
+    "valorParcela": "79,33",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 56
+  },
+  "sandalia-baruk-retrope-chantal": {
+    "nome": "Sandália Baruk Retropé Chantal",
+    "codigo": "030",
+    "precoAnterior": "199,00",
+    "precoAtual": "179,90",
+    "parcelas": 6,
+    "valorParcela": "29,98",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 110
+  }
+}
