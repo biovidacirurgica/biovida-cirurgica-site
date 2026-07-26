@@ -206,7 +206,7 @@
     "precoAtual": "0,00",
     "parcelas": 6,
     "valorParcela": "0,00",
-    "avaliacao": 5,
+    "avaliacao": 2,
     "quantidadeAvaliacoes": 60
   },
   "ortese-punho-tala-polegar-kestal-kso139": {
@@ -298,5 +298,205 @@
     "valorParcela": "29,98",
     "avaliacao": 5,
     "quantidadeAvaliacoes": 110
+  },
+  "agulha-hipodermica-bd-18g-120x40mm": {
+    "nome": "Agulha Hipodérmica BD 18G 1,20 x 40 mm Caixa com 100 Unidades",
+    "codigo": "031/não informado",
+    "precoAnterior": "0,00",
+    "precoAtual": "35,90",
+    "parcelas": 6,
+    "valorParcela": "5,98",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 0
+  },
+  "agulha-hipodermica-bd-22g-070x25mm": {
+    "nome": "Agulha Hipodérmica BD 22G 0,70 x 25 mm Caixa com 100 Unidades",
+    "codigo": "032/Não informado",
+    "precoAnterior": "0,00",
+    "precoAtual": "37,99",
+    "parcelas": 6,
+    "valorParcela": "6,33",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 0
+  },
+  "agulha-hipodermica-bd-21g-080x30mm": {
+    "nome": "Agulha Hipodérmica BD 21G 0,80 x 30 mm Caixa com 100 Unidades",
+    "codigo": "033/teste",
+    "precoAnterior": "0,00",
+    "precoAtual": "27,90",
+    "parcelas": 6,
+    "valorParcela": "4,65",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 0
+  },
+  "agulha-aspiracao-uniqmed-18g-120x25mm": {
+    "nome": "Agulha para Aspiração Uniqmed 18G 1,20 x 25 mm Caixa com 100 Unidades",
+    "codigo": "034/Não informado",
+    "precoAnterior": "0,00",
+    "precoAtual": "27,90",
+    "parcelas": 6,
+    "valorParcela": "4,65",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 0
+  },
+  "agulha-hipodermica-uniqmed-22g-070x25mm": {
+    "nome": "Agulha Hipodérmica Uniqmed 22G 0,70 x 25 mm Caixa com 100 Unidades",
+    "codigo": "035/Não informado",
+    "precoAnterior": "0,00",
+    "precoAtual": "25,90",
+    "parcelas": 6,
+    "valorParcela": "4,32",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 0
+  },
+  "agulha-coleta-multipla-descarpack-21g-080x25mm": {
+    "nome": "Agulha para Coleta Múltipla Descarpack 21G 0,80 x 25 mm Caixa com 100 Unidades",
+    "codigo": "036/Não informado",
+    "precoAnterior": "0,00",
+    "precoAtual": "37,90",
+    "parcelas": 6,
+    "valorParcela": "6,32",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 0
+  },
+  "agulha-coleta-multipla-descarpack-22g-070x25mm": {
+    "nome": "Agulha para Coleta Múltipla Descarpack 22G 0,70 x 25 mm Caixa com 100 Unidades",
+    "codigo": "037/Não informado",
+    "precoAnterior": "0,00",
+    "precoAtual": "37,90",
+    "parcelas": 6,
+    "valorParcela": "6,32",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 0
+  },
+  "agulha-coleta-multipla-uniqmed-21g-080x25mm": {
+    "nome": "Agulha para Coleta Múltipla Uniqmed 21G 0,80 x 25 mm Caixa com 100 Unidades",
+    "codigo": "038/Não informado",
+    "precoAnterior": "0,00",
+    "precoAtual": "45,90",
+    "parcelas": 6,
+    "valorParcela": "7,65",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 0
+  },
+  "cateter-periferico-iv-descarpack-22g": {
+    "nome": "Cateter Periférico IV Descarpack 22G Caixa com 100 Unidades",
+    "codigo": "039/Não informado",
+    "precoAnterior": "0,00",
+    "precoAtual": "218,00",
+    "parcelas": 6,
+    "valorParcela": "36,33",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 0
+  },
+  "escalpe-infusao-uniqmed-23g": {
+    "nome": "Escalpe para Infusão Uniqmed 23G com Tubo de 30 cm Caixa com 100 Unidades",
+    "codigo": "040/Não informado",
+    "precoAnterior": "0,00",
+    "precoAtual": "55,90",
+    "parcelas": 6,
+    "valorParcela": "9,32",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 0
+  },
+  "mascara-descartavel-tripla-supreme-medix": {
+    "nome": "Máscara Descartável Tripla Supreme Medix Branca Caixa com 50 Unidades",
+    "codigo": "041/Não informado",
+    "precoAnterior": "0,00",
+    "precoAtual": "23,20",
+    "parcelas": 6,
+    "valorParcela": "3,87",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 0
+  },
+  "bota-imobilizadora-anatomica-curta-take-care": {
+    "nome": "Bota Imobilizadora Anatômica Cano Curto Take Care",
+    "codigo": "042/Não informado",
+    "precoAnterior": "0,00",
+    "precoAtual": "159,90",
+    "parcelas": 6,
+    "valorParcela": "26,65",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 0
+  },
+  "joelheira-ajustavel-neo-hastes-hidrolight": {
+    "nome": "Joelheira Ajustável Neo com Hastes Hidrolight",
+    "codigo": "043/Não informado",
+    "precoAnterior": "0,00",
+    "precoAtual": "84,90",
+    "parcelas": 6,
+    "valorParcela": "14,15",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 0
+  },
+  "ortese-punho-longa-polegar-comfort-air-hidrolight": {
+    "nome": "Órtese de Punho Longa Comfort Air com Polegar Hidrolight",
+    "codigo": "044/Não informado",
+    "precoAnterior": "0,00",
+    "precoAtual": "99,90",
+    "parcelas": 6,
+    "valorParcela": "16,65",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 0
+  },
+  "luva-procedimento-latex-com-po-medix": {
+    "nome": "Luva de Procedimento Látex com Pó Medix Caixa com 100 Unidades",
+    "codigo": "045/Não informado",
+    "precoAnterior": "0,00",
+    "precoAtual": "0,00",
+    "parcelas": 6,
+    "valorParcela": "0,00",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 0
+  },
+  "luva-vinil-sem-po-medix": {
+    "nome": "Luva de Vinil sem Pó Medix Caixa com 100 Unidades",
+    "codigo": "046/Não informado",
+    "precoAnterior": "0,00",
+    "precoAtual": "0,00",
+    "parcelas": 6,
+    "valorParcela": "0,00",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 0
+  },
+  "bota-imobilizadora-cano-curto-chantal": {
+    "nome": "Bota Imobilizadora Cano Curto Chantal",
+    "codigo": "047/Não informado",
+    "precoAnterior": "0,00",
+    "precoAtual": "0,00",
+    "parcelas": 6,
+    "valorParcela": "0,00",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 0
+  },
+  "bota-imobilizadora-cano-longo-chantal": {
+    "nome": "Bota Imobilizadora Cano Longo Chantal",
+    "codigo": "048/Não informado",
+    "precoAnterior": "0,00",
+    "precoAtual": "0,00",
+    "parcelas": 6,
+    "valorParcela": "0,00",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 0
+  },
+  "colete-putti-alto-take-care": {
+    "nome": "Colete Putti Alto Take Care",
+    "codigo": "049/Não informado",
+    "precoAnterior": "0,00",
+    "precoAtual": "0,00",
+    "parcelas": 6,
+    "valorParcela": "0,00",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 0
+  },
+  "fralda-geriatrica-bigfral-derma-plus": {
+    "nome": "Fralda Geriátrica Bigfral Derma Plus",
+    "codigo": "050/Não informado",
+    "precoAnterior": "0,00",
+    "precoAtual": "0,00",
+    "parcelas": 6,
+    "valorParcela": "0,00",
+    "avaliacao": 5,
+    "quantidadeAvaliacoes": 0
   }
 }
