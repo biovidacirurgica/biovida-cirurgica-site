@@ -1,7 +1,7 @@
 {
   "cadeira-rodas-d400": {
     "nome": "Cadeira de Rodas Aço Dobrável até 120 Kg D400 Dellamed",
-    "codigo": "001-codigo-loja(0000)",
+    "codigo": "001/2265",
     "precoAnterior": "1.699,00",
     "precoAtual": "1.395,00",
     "parcelas": 6,
@@ -11,7 +11,7 @@
   },
   "cadeira-rodas-d100": {
     "nome": "Cadeira de Rodas D100 Dobrável até 110 kg Dellamed",
-    "codigo": "002",
+    "codigo": "002/1439",
     "precoAnterior": "1.199,90",
     "precoAtual": "920,90",
     "parcelas": 6,
@@ -21,7 +21,7 @@
   },
   "andador-3-barras-articulado": {
     "nome": "Andador 3 Barras Articulado Dellamed",
-    "codigo": "003",
+    "codigo": "003/2282",
     "precoAnterior": "289,00",
     "precoAtual": "219,00",
     "parcelas": 6,
@@ -31,7 +31,7 @@
   },
   "muleta-axilar-3-em-1": {
     "nome": "Muleta Axilar Ajustável 3 em 1 até 130 kg Dellamed",
-    "codigo": "004",
+    "codigo": "004/2471",
     "precoAnterior": "229,00",
     "precoAtual": "198,90",
     "parcelas": 6,
@@ -41,7 +41,7 @@
   },
   "cadeira-banho-d55": {
     "nome": "Cadeira de Banho D55 Ultraleve 4 em 1 até 135kg Dellamed",
-    "codigo": "005",
+    "codigo": "005/2159",
     "precoAnterior": "629,00",
     "precoAtual": "549,00",
     "parcelas": 6,
@@ -51,7 +51,7 @@
   },
   "cadeira-banho-d30": {
     "nome": "Cadeira de Banho Higiênica Dobrável D30 até 100 kg Dellamed",
-    "codigo": "006",
+    "codigo": "006/2158",
     "precoAnterior": "329,00",
     "precoAtual": "289,90",
     "parcelas": 6,
@@ -121,7 +121,7 @@
   },
   "joelheira-articulada-kestal-ksn081": {
     "nome": "Joelheira Articulada Kestal",
-    "codigo": "013",
+    "codigo": "013/891",
     "precoAnterior": "199,90",
     "precoAtual": "178,50",
     "parcelas": 6,
@@ -131,7 +131,7 @@
   },
   "joelheira-ajustavel-reforco-patelar-kestal-ksn003": {
     "nome": "Joelheira Ajustável com Reforço Patelar Kestal",
-    "codigo": "014",
+    "codigo": "014/2251",
     "precoAnterior": "79,90",
     "precoAtual": "59,90",
     "parcelas": 6,
@@ -141,7 +141,7 @@
   },
   "sensi-knee-joelheira-bilateral-kestal-ksn080-pr": {
     "nome": "Sensi Knee Joelheira Bilateral Kestal",
-    "codigo": "015",
+    "codigo": "015/87",
     "precoAnterior": "269,00",
     "precoAtual": "219,90",
     "parcelas": 6,
@@ -151,7 +151,7 @@
   },
   "suporte-subpatelar-kestal-ksn006": {
     "nome": "Suporte Subpatelar Kestal",
-    "codigo": "016",
+    "codigo": "016/89",
     "precoAnterior": "97,90",
     "precoAtual": "74,90",
     "parcelas": 6,
@@ -203,9 +203,9 @@
     "nome": "Estabilizador de Tornozelo com Hastes Flexsteel Kestal",
     "codigo": "021",
     "precoAnterior": "0,00",
-    "precoAtual": "0,00",
+    "precoAtual": "89,90",
     "parcelas": 6,
-    "valorParcela": "0,00",
+    "valorParcela": "14,98",
     "avaliacao": 2,
     "quantidadeAvaliacoes": 60
   },
@@ -301,202 +301,202 @@
   },
   "agulha-hipodermica-bd-18g-120x40mm": {
     "nome": "Agulha Hipodérmica BD 18G 1,20 x 40 mm Caixa com 100 Unidades",
-    "codigo": "031/não informado",
+    "codigo": "031/1678",
     "precoAnterior": "0,00",
     "precoAtual": "35,90",
     "parcelas": 6,
     "valorParcela": "5,98",
     "avaliacao": 5,
-    "quantidadeAvaliacoes": 0
+    "quantidadeAvaliacoes": 22
   },
   "agulha-hipodermica-bd-22g-070x25mm": {
     "nome": "Agulha Hipodérmica BD 22G 0,70 x 25 mm Caixa com 100 Unidades",
-    "codigo": "032/Não informado",
+    "codigo": "032/2286",
     "precoAnterior": "0,00",
     "precoAtual": "37,99",
     "parcelas": 6,
     "valorParcela": "6,33",
     "avaliacao": 5,
-    "quantidadeAvaliacoes": 0
+    "quantidadeAvaliacoes": 36
   },
   "agulha-hipodermica-bd-21g-080x30mm": {
     "nome": "Agulha Hipodérmica BD 21G 0,80 x 30 mm Caixa com 100 Unidades",
-    "codigo": "033/teste",
+    "codigo": "033/1486",
     "precoAnterior": "0,00",
     "precoAtual": "27,90",
     "parcelas": 6,
     "valorParcela": "4,65",
     "avaliacao": 5,
-    "quantidadeAvaliacoes": 0
+    "quantidadeAvaliacoes": 36
   },
   "agulha-aspiracao-uniqmed-18g-120x25mm": {
     "nome": "Agulha para Aspiração Uniqmed 18G 1,20 x 25 mm Caixa com 100 Unidades",
-    "codigo": "034/Não informado",
+    "codigo": "034/2431",
     "precoAnterior": "0,00",
     "precoAtual": "27,90",
     "parcelas": 6,
     "valorParcela": "4,65",
     "avaliacao": 5,
-    "quantidadeAvaliacoes": 0
+    "quantidadeAvaliacoes": 36
   },
   "agulha-hipodermica-uniqmed-22g-070x25mm": {
     "nome": "Agulha Hipodérmica Uniqmed 22G 0,70 x 25 mm Caixa com 100 Unidades",
-    "codigo": "035/Não informado",
+    "codigo": "035/2408",
     "precoAnterior": "0,00",
     "precoAtual": "25,90",
     "parcelas": 6,
     "valorParcela": "4,32",
     "avaliacao": 5,
-    "quantidadeAvaliacoes": 0
+    "quantidadeAvaliacoes": 36
   },
   "agulha-coleta-multipla-descarpack-21g-080x25mm": {
     "nome": "Agulha para Coleta Múltipla Descarpack 21G 0,80 x 25 mm Caixa com 100 Unidades",
-    "codigo": "036/Não informado",
+    "codigo": "036/2140",
     "precoAnterior": "0,00",
     "precoAtual": "37,90",
     "parcelas": 6,
     "valorParcela": "6,32",
     "avaliacao": 5,
-    "quantidadeAvaliacoes": 0
+    "quantidadeAvaliacoes": 56
   },
   "agulha-coleta-multipla-descarpack-22g-070x25mm": {
     "nome": "Agulha para Coleta Múltipla Descarpack 22G 0,70 x 25 mm Caixa com 100 Unidades",
-    "codigo": "037/Não informado",
+    "codigo": "037/2142",
     "precoAnterior": "0,00",
     "precoAtual": "37,90",
     "parcelas": 6,
     "valorParcela": "6,32",
     "avaliacao": 5,
-    "quantidadeAvaliacoes": 0
+    "quantidadeAvaliacoes": 35
   },
   "agulha-coleta-multipla-uniqmed-21g-080x25mm": {
     "nome": "Agulha para Coleta Múltipla Uniqmed 21G 0,80 x 25 mm Caixa com 100 Unidades",
-    "codigo": "038/Não informado",
+    "codigo": "038/2418",
     "precoAnterior": "0,00",
     "precoAtual": "45,90",
     "parcelas": 6,
     "valorParcela": "7,65",
     "avaliacao": 5,
-    "quantidadeAvaliacoes": 0
+    "quantidadeAvaliacoes": 50
   },
   "cateter-periferico-iv-descarpack-22g": {
     "nome": "Cateter Periférico IV Descarpack 22G Caixa com 100 Unidades",
-    "codigo": "039/Não informado",
+    "codigo": "039/1778",
     "precoAnterior": "0,00",
     "precoAtual": "218,00",
     "parcelas": 6,
     "valorParcela": "36,33",
     "avaliacao": 5,
-    "quantidadeAvaliacoes": 0
+    "quantidadeAvaliacoes": 25
   },
   "escalpe-infusao-uniqmed-23g": {
     "nome": "Escalpe para Infusão Uniqmed 23G com Tubo de 30 cm Caixa com 100 Unidades",
-    "codigo": "040/Não informado",
+    "codigo": "040/2412",
     "precoAnterior": "0,00",
     "precoAtual": "55,90",
     "parcelas": 6,
     "valorParcela": "9,32",
     "avaliacao": 5,
-    "quantidadeAvaliacoes": 0
+    "quantidadeAvaliacoes": 60
   },
   "mascara-descartavel-tripla-supreme-medix": {
     "nome": "Máscara Descartável Tripla Supreme Medix Branca Caixa com 50 Unidades",
-    "codigo": "041/Não informado",
+    "codigo": "041/1609",
     "precoAnterior": "0,00",
     "precoAtual": "23,20",
     "parcelas": 6,
     "valorParcela": "3,87",
     "avaliacao": 5,
-    "quantidadeAvaliacoes": 0
+    "quantidadeAvaliacoes": 25
   },
   "bota-imobilizadora-anatomica-curta-take-care": {
     "nome": "Bota Imobilizadora Anatômica Cano Curto Take Care",
-    "codigo": "042/Não informado",
+    "codigo": "042",
     "precoAnterior": "0,00",
     "precoAtual": "159,90",
     "parcelas": 6,
     "valorParcela": "26,65",
     "avaliacao": 5,
-    "quantidadeAvaliacoes": 0
+    "quantidadeAvaliacoes": 189
   },
   "joelheira-ajustavel-neo-hastes-hidrolight": {
     "nome": "Joelheira Ajustável Neo com Hastes Hidrolight",
-    "codigo": "043/Não informado",
+    "codigo": "043/876",
     "precoAnterior": "0,00",
-    "precoAtual": "84,90",
+    "precoAtual": "135,00",
     "parcelas": 6,
-    "valorParcela": "14,15",
+    "valorParcela": "22,50",
     "avaliacao": 5,
-    "quantidadeAvaliacoes": 0
+    "quantidadeAvaliacoes": 89
   },
   "ortese-punho-longa-polegar-comfort-air-hidrolight": {
     "nome": "Órtese de Punho Longa Comfort Air com Polegar Hidrolight",
-    "codigo": "044/Não informado",
+    "codigo": "044",
     "precoAnterior": "0,00",
     "precoAtual": "99,90",
     "parcelas": 6,
     "valorParcela": "16,65",
     "avaliacao": 5,
-    "quantidadeAvaliacoes": 0
+    "quantidadeAvaliacoes": 90
   },
   "luva-procedimento-latex-com-po-medix": {
     "nome": "Luva de Procedimento Látex com Pó Medix Caixa com 100 Unidades",
-    "codigo": "045/Não informado",
+    "codigo": "045",
     "precoAnterior": "0,00",
-    "precoAtual": "0,00",
+    "precoAtual": "32,90",
     "parcelas": 6,
-    "valorParcela": "0,00",
+    "valorParcela": "5,48",
     "avaliacao": 5,
-    "quantidadeAvaliacoes": 0
+    "quantidadeAvaliacoes": 79
   },
   "luva-vinil-sem-po-medix": {
     "nome": "Luva de Vinil sem Pó Medix Caixa com 100 Unidades",
-    "codigo": "046/Não informado",
+    "codigo": "046",
     "precoAnterior": "0,00",
-    "precoAtual": "0,00",
+    "precoAtual": "32,90",
     "parcelas": 6,
-    "valorParcela": "0,00",
+    "valorParcela": "5,48",
     "avaliacao": 5,
-    "quantidadeAvaliacoes": 0
+    "quantidadeAvaliacoes": 59
   },
   "bota-imobilizadora-cano-curto-chantal": {
     "nome": "Bota Imobilizadora Cano Curto Chantal",
-    "codigo": "047/Não informado",
+    "codigo": "047",
     "precoAnterior": "0,00",
-    "precoAtual": "0,00",
+    "precoAtual": "269,90",
     "parcelas": 6,
-    "valorParcela": "0,00",
+    "valorParcela": "44,98",
     "avaliacao": 5,
-    "quantidadeAvaliacoes": 0
+    "quantidadeAvaliacoes": 125
   },
   "bota-imobilizadora-cano-longo-chantal": {
     "nome": "Bota Imobilizadora Cano Longo Chantal",
-    "codigo": "048/Não informado",
+    "codigo": "048",
     "precoAnterior": "0,00",
-    "precoAtual": "0,00",
+    "precoAtual": "279,90",
     "parcelas": 6,
-    "valorParcela": "0,00",
+    "valorParcela": "46,65",
     "avaliacao": 5,
-    "quantidadeAvaliacoes": 0
+    "quantidadeAvaliacoes": 189
   },
   "colete-putti-alto-take-care": {
     "nome": "Colete Putti Alto Take Care",
-    "codigo": "049/Não informado",
+    "codigo": "049",
     "precoAnterior": "0,00",
-    "precoAtual": "0,00",
+    "precoAtual": "179,90",
     "parcelas": 6,
-    "valorParcela": "0,00",
+    "valorParcela": "29,98",
     "avaliacao": 5,
-    "quantidadeAvaliacoes": 0
+    "quantidadeAvaliacoes": 96
   },
   "fralda-geriatrica-bigfral-derma-plus": {
     "nome": "Fralda Geriátrica Bigfral Derma Plus",
-    "codigo": "050/Não informado",
+    "codigo": "050",
     "precoAnterior": "0,00",
-    "precoAtual": "0,00",
+    "precoAtual": "34,90",
     "parcelas": 6,
-    "valorParcela": "0,00",
+    "valorParcela": "5,82",
     "avaliacao": 5,
-    "quantidadeAvaliacoes": 0
+    "quantidadeAvaliacoes": 135
   }
 }
